@@ -1,0 +1,7 @@
+services:
+  devops-bootcamp:
+    build: .
+    container_name: devops-bootcamp-cicd
+    ports:
+      - "8080:80"
+    restart: always
